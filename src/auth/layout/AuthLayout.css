@@ -1,0 +1,43 @@
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 35px;
+    min-height: 100vh;
+    /* background-color: #9c2e38; */
+}
+
+body {
+    background-color: rgba(14, 54, 230, 0.493);
+    /* background-image: url("/assets/ELEVA-T.png"); */
+}
+
+img {
+    width: 400px;
+    height: 100px;
+}
+
+.card-body {
+    width: 100%;
+    padding: 20px;
+}
+
+.img-fluid {
+    height: 100px;
+    /* width: 100vh; */
+}

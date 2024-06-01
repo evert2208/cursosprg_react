@@ -1,0 +1,11 @@
+button {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.register {
+    padding-top: 20px;
+    justify-content: end !important;
+    align-items: end !important;
+    text-align: left !important;
+}

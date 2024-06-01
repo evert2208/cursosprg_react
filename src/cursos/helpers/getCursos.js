@@ -1,4 +1,4 @@
-import { cursos } from '../../api/data/cursos'
+// import { cursos } from '../../api/data/cursos'
 
 
 export const getCursosByTipo = (tipo) => {
@@ -8,6 +8,6 @@ export const getCursosByTipo = (tipo) => {
     if (!validTipo.includes(tipo)) {
         throw new Error(`${tipo} no existe`);
     }
-
-    return cursos.filter(x => x.tipo === tipo);
+    return []
+        // return cursos.filter(x => x.tipo === tipo);
 }
